@@ -1,0 +1,71 @@
+
+.tituloencabezado{
+
+  background-image:url(../assets/images/montanacolores.jpg);
+  height: 450px;
+  font-size: 25px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+  overflow-x: hidden;
+}
+
+.container-fluid{
+padding: 0px;
+width: 100%;
+}
+
+.btn-info{
+margin-left: 40%;
+background: #630606;
+border-color: white;
+}
+
+.btn-info:hover{
+color: #D9CE3F;
+background: #630606;
+}
+
+.tit2{
+display: flex;
+justify-content: center;
+}
+
+.tit1{
+background: dimgray;
+color: white;
+text-shadow: 2px 2px 6px black;
+@extend .tit2;
+
+}
+
+.section1{
+	display: block;
+	width: 100%;
+}
+
+.sectionB{
+		@extend .section1;
+		height: auto;
+		background: black;
+		color: white;
+		padding: 5px 10px;
+}
+
+.sectionC{
+	@extend .section1;
+	height:  400px;
+	background: $llama;
+	background-repeat: no-repeat;
+	background-size:cover ;
+}
+
+.sectionD{
+@extend .section1;
+height: 400px;
+background: $costa;
+background-repeat: no-repeat;
+background-size:cover ;
+}

@@ -1,0 +1,29 @@
+.ceviche{
+display: flex;
+width: 100%;
+height: 300px;
+background-image: $ceviche;
+background-repeat: no-repeat;
+background-size: cover;
+font-weight: bold;
+font-size: 20px;
+justify-content: center;
+}
+
+.brasa{
+display: flex;
+width: 100%;
+height: 400px;
+background-image: $brasa;
+background-repeat: no-repeat;
+background-size: cover;
+font-weight: bold;
+font-size: 20px;
+justify-content: center;
+}
+
+p{
+padding: 14px 14px;
+display: flex;
+text-align: justify;
+}

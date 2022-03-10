@@ -1,0 +1,38 @@
+
+.foo{
+   color: $blanco;
+   display: flex;
+   flex-direction: column;
+   justify-content: center ;
+   align-items: center;
+   background-color: $fondoFooter;
+   text-align: center;
+   padding: 10px 0px;
+}
+
+
+$redes: (
+   facebook:  #305795,
+   twitter: #550cee,
+   instagram: #080808,
+);
+
+@each $red, $color in $redes{
+   .btn--#{$red}{
+         background-color: $color;
+   }
+}
+
+.sidebar{
+top: 1%;
+left: 1%;
+flex-direction: column;
+align-items:center;
+transition: all 0.5s;
+}
+
+.redes:hover{
+padding-right:3rem;
+border-radius: 1rem 0 0 1rem;
+transition: all 0.5s; 
+}

@@ -1,0 +1,28 @@
+#galeria img{
+width: 100%;
+height: 250px;
+
+}
+
+#galeria .col-lg-4{
+padding: 25px;
+margin: 0 !important;
+background: $bgfotos;
+background-repeat: no repeat;
+background-size: cover;
+}
+
+#galeria img:hover{
+  border: 5px solid #876445;
+  box-shadow: 2px 2px 5px black;
+}
+
+.tit3{
+@extend .tit2;
+flex-direction: column;
+align-content: center;
+background: $bgfotos;
+background-repeat: no repeat;
+background-size: cover;
+color: white;
+}

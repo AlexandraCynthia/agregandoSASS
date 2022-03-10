@@ -1,0 +1,192 @@
+html, body {
+  overflow-x: hidden; }
+
+.navbar-collapse {
+  justify-content: flex-end;
+  background: transparent; }
+
+.bg-light {
+  background: black;
+  background-position: cover; }
+
+html, body {
+  overflow-x: hidden; }
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: white;
+  font-size: 20px;
+  width: 100%; }
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: yellow; }
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
+  color: whitesmoke; }
+
+.navbar-expand-lg {
+  background: url(https://images.unsplash.com/photo-1642790391931-5c92f126809f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80); }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-size: 22px; }
+
+.navbar-toggler-icon {
+  background: white; }
+
+.foo {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #04293a;
+  text-align: center;
+  padding: 10px 0px; }
+
+.btn--facebook {
+  background-color: #305795; }
+
+.btn--twitter {
+  background-color: #550cee; }
+
+.btn--instagram {
+  background-color: #080808; }
+
+.sidebar {
+  top: 1%;
+  left: 1%;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s; }
+
+.redes:hover {
+  padding-right: 3rem;
+  border-radius: 1rem 0 0 1rem;
+  transition: all 0.5s; }
+
+.tituloencabezado {
+  background-image: url(../assets/images/montanacolores.jpg);
+  height: 450px;
+  font-size: 25px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+  overflow-x: hidden; }
+
+.container-fluid {
+  padding: 0px;
+  width: 100%; }
+
+.btn-info {
+  margin-left: 40%;
+  background: #630606;
+  border-color: white; }
+
+.btn-info:hover {
+  color: #D9CE3F;
+  background: #630606; }
+
+.tit2, .tit1, .tit3 {
+  display: flex;
+  justify-content: center; }
+
+.tit1 {
+  background: dimgray;
+  color: white;
+  text-shadow: 2px 2px 6px black; }
+
+.section1, .sectionB, .sectionC, .sectionD {
+  display: block;
+  width: 100%; }
+
+.sectionB {
+  height: auto;
+  background: black;
+  color: white;
+  padding: 5px 10px; }
+
+.sectionC {
+  height: 400px;
+  background: url(https://images.unsplash.com/photo-1534615098829-958121bcc188?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.sectionD {
+  height: 400px;
+  background: url(https://s03.s3c.es/imag/_v0/770x420/3/4/8/Costa-verde.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.tit1 {
+  display: flex;
+  justify-content: center;
+  background: dimgray;
+  color: white;
+  text-shadow: 2px 2px 6px black; }
+
+.tit2, .tit1, .tit3 {
+  display: flex;
+  justify-content: center; }
+
+.ceviche {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-image: url(https://1.bp.blogspot.com/-lU2GshgWAUc/YP9PL66WdBI/AAAAAAAAONs/AY44ppmk1McqAsQfwvvsEfWLADKDcSvWQCLcBGAsYHQ/s800/Ceviche-Peruano.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  font-size: 20px;
+  justify-content: center; }
+
+.brasa {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background-image: url(https://www.eatperu.com/wp-content/uploads/2019/10/pollo-a-la-brasa-with-salad-and-dipping-sauces.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  font-size: 20px;
+  justify-content: center; }
+
+p {
+  padding: 14px 14px;
+  display: flex;
+  text-align: justify; }
+
+.ubicacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+#galeria img {
+  width: 100%;
+  height: 250px; }
+
+#galeria .col-lg-4 {
+  padding: 25px;
+  margin: 0 !important;
+  background: url(https://images.unsplash.com/photo-1646821198791-a3e16385a689?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-repeat: no repeat;
+  background-size: cover; }
+
+#galeria img:hover {
+  border: 5px solid #876445;
+  box-shadow: 2px 2px 5px black; }
+
+.tit3 {
+  flex-direction: column;
+  align-content: center;
+  background: url(https://images.unsplash.com/photo-1646821198791-a3e16385a689?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-repeat: no repeat;
+  background-size: cover;
+  color: white; }
+
+@media (max-width: 768px) {
+  .tituloencabezado {
+    height: 550px; }
+  .btn-info {
+    margin-left: 30%; } }

@@ -1,0 +1,43 @@
+
+html,body{
+    overflow-x: hidden; 
+}
+
+.navbar-collapse{
+justify-content: flex-end;
+background: transparent;
+}
+.bg-light {
+background: $negro;
+background-position: cover;
+}
+
+html,body{
+    overflow-x: hidden; 
+
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: $blanco;
+  font-size: 20px;
+  width: 100%;
+  }
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: $amarillo;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link{
+color:  whitesmoke;
+}
+
+.navbar-expand-lg{
+background: $fondoheader;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+font-size: 22px;
+}
+.navbar-toggler-icon{
+background: white;
+}
